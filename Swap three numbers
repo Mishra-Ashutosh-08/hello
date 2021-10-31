@@ -20,7 +20,7 @@ void swapThree(int &a, int &b, int &c)
 	a = a - (b+c); //(a = 60 – (10 + 20) = 30)
 }
 
-// Driver code
+// Driver code for optimization
 int main()
 {
 	int a = 10, b = 20, c = 30;
@@ -36,3 +36,5 @@ int main()
 	
 	return 0;
 }
+
+// End of the program
